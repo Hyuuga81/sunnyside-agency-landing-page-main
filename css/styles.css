@@ -1,3 +1,7 @@
+html {
+    font-size: 18px;
+}
+
 body {
     width: 100%;
     font-size: 1em;
@@ -6,7 +10,9 @@ body {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    font-size: 1em;
     margin: 0;
+    font-family: 'Barlow', sans-serif;
 }
 
 header {
@@ -45,7 +51,7 @@ section {
 }
 
 .container {
-    width: 90%;
+    width: 87.2%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,13 +62,18 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6,
 p,
 a,
 li {
     margin: 0;
     padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Fraunces', serif;
 }
 
 /***************** OVERLAY  *****************/
@@ -105,10 +116,19 @@ nav {
     justify-content: space-between;
     align-items: center;
     flex-flow: row wrap;
+    padding-top: 32px;
 }
 
 .hide {
     display: none;
+}
+
+.logo {
+    width: 32.8%;
+}
+
+.hamburger {
+    width: 6%;
 }
 
 /***************** HERO **************/
@@ -132,6 +152,11 @@ nav {
 #hero h2 {
     width: 100%;
     text-align: center;
+    font-size: 2.22em;
+    font-weight: 900;
+    line-height: 49px;
+    letter-spacing: 6.25px;
+    text-transform: uppercase;
     padding: 88px 0 55px 0;
 }
 
@@ -177,11 +202,31 @@ nav {
 
 #brand .text-content h2 {
     padding-bottom: 24px;
+    color: #24303E;
+    font-weight: 900;
+    font-size: 1.77em;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: -0.22px;
 }
 
 #brand .text-content p {
+    color: #808397;
+    font-weight: 600;
+    font-size: 1em;
     padding-bottom: 32px;
     line-height: 30px;
+}
+
+#brand .text-content h3 {
+    color: #24303E;
+    text-transform: uppercase;
+    font-size: .83em;
+    font-weight: 900;
+    line-height: 25px;
+    letter-spacing: 1px;
+    /* the border bottom is a place holder for the effect */
+    border-bottom: 3px solid #FAD400;
 }
 
 /*************** AUDIENCE **************/
@@ -222,11 +267,33 @@ nav {
 
 #audience .text-content h2 {
     padding-bottom: 24px;
+    color: #24303E;
+    font-weight: 900;
+    font-size: 1.77em;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: -0.22px;
 }
 
 #audience .text-content p {
     padding-bottom: 32px;
+    color: #808397;
+    font-weight: 600;
+    font-size: 1em;
+    padding-bottom: 32px;
     line-height: 30px;
+}
+
+#audience .text-content h3 {
+    color: #24303E;
+    text-transform: uppercase;
+    font-size: .83em;
+    font-weight: 900;
+    line-height: 25px;
+    letter-spacing: 1px;
+    /* the border bottom is a place holder for the effect */
+    border-bottom: 3px solid #FE7766;
+    ;
 }
 
 /*************** GRAPHIC DESIGN **************/
@@ -254,10 +321,19 @@ nav {
 
 #graphic-design h2 {
     padding-bottom: 27px;
+    font-weight: 900;
+    font-size: 1.55em;
+    line-height: 35px;
+    letter-spacing: .2px;
+    color: #24554A;
 }
 
 #graphic-design p {
+    font-size: 0.88em;
+    font-weight: 600;
     line-height: 27px;
+    letter-spacing: .12px;
+    color: #24554A;
 }
 
 /*************** PHOTOGRAPHY **************/
@@ -285,10 +361,19 @@ nav {
 
 #photography h2 {
     padding-bottom: 27px;
+    font-weight: 900;
+    font-size: 1.55em;
+    line-height: 35px;
+    letter-spacing: .2px;
+    color: #052C3B;
 }
 
 #photography p {
+    font-size: 0.88em;
+    font-weight: 600;
     line-height: 27px;
+    letter-spacing: .12px;
+    color: #19536C;
 }
 
 /*************** CLIENT TESTIMONIALS **************/
@@ -299,11 +384,17 @@ nav {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    padding: 64px 0 86px 0;
+    padding: 64px 0 0 0;
 }
 
 #testimonials h3 {
     padding-bottom: 64px;
+    font-weight: 900;
+    font-size: .88em;
+    line-height: 20px;
+    letter-spacing: 4px;
+    color: #A7AAAD;
+    text-transform: uppercase;
 }
 
 #testimonials .text-content {
@@ -320,6 +411,10 @@ nav {
     padding-bottom: 64px;
 }
 
+.testimonial.bottom {
+    padding-bottom: 8px;
+}
+
 .testimonial img {
     width: 22%;
     margin-bottom: 32px;
@@ -328,12 +423,29 @@ nav {
 
 .testimonial p {
     padding-bottom: 32px;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: -0.13px;
     line-height: 32px;
+    color: #5B636D;
 }
 
 .testimonial h4 {
     padding-bottom: 9px;
     width: 100%;
+    font-weight: 900;
+    font-size: 1em;
+    line-height: 22px;
+    color: #24303E;
+}
+
+.testimonial span {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 0.78em;
+    line-height: 25px;
+    letter-spacing: -0.1px;
+    color: #A7AAAD;
 }
 
 /*************** FOOTER **************/
@@ -368,10 +480,12 @@ footer .container {
     flex-flow: row wrap;
 }
 
-footer h3 {
-    width: 100%;
+footer .logo {
+    width: 45%;
+    color: #2C7566;
     text-align: center;
     padding: 64px 0 40px 0;
+
 }
 
 
@@ -398,6 +512,10 @@ footer ul {
 footer a {
     text-decoration: none;
     color: #458D7E;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 25px;
+    letter-spacing: -0.13px;
 }
 
 footer .socials {
@@ -408,6 +526,10 @@ footer .socials {
     flex-flow: row wrap;
     padding: 88px 0 100px 0;
     text-align: center;
+}
+
+.socials a i {
+    font-size: 1em;
 }
 
 .foot-title {
