@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Sunnyside agency landing page</title>
 
   <!-- css link -->
@@ -14,6 +16,7 @@
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/9c12f75243.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
   <header>
     <div class="container">
@@ -26,8 +29,8 @@
             <li><a href="#">Projects</a></li>
             <li class="cta"><a href="#">Contact</a></li>
           </ul>
-        </div>   <!--end overlay contents-->
-      </div>    <!-- end overlay -->
+        </div> <!--end overlay contents-->
+      </div> <!-- end overlay -->
 
       <nav>
         <div class="logo">
@@ -47,27 +50,31 @@
       </nav>
 
     </div>
+
+    <!-- HERO -->
+    <div id="hero">
+      <div class="container">
+        <h2>We are creatives</h2>
+        <img src="images/icon-arrow-down.svg" alt="downward arrow">
+        <!-- downward arrow from fontawesome. may have to transform position -->
+      </div>
+    </div>
   </header>
 
   <main>
-    <!-- HERO -->
-    <section id="hero">
-      <div class="container">
-        <h2>We are creatives</h2>
-        <!-- downward arrow from fontawesome. may have to transform position -->
-      </div>
-    </section>
+
 
     <!-- BRAND -->
     <section id="brand">
       <div class="img-content">
         <!-- egg image -->
+        <p class="hide">.</p>
       </div>
       <div class="text-content">
         <div class="container">
           <h2>Transform your brand</h2>
-          <p>We are a full-service creative agency specializing in helping brands grow fast. 
-          Engage your clients through compelling visuals that do most of the marketing for you.</p>
+          <p>We are a full-service creative agency specializing in helping brands grow fast.
+            Engage your clients through compelling visuals that do most of the marketing for you.</p>
           <h3>Learn more</h3>
         </div>
       </div>
@@ -77,11 +84,13 @@
     <section id="audience">
       <div class="img-content">
         <!-- wine glass image -->
+        <p class="hide"></p>
       </div>
       <div class="text-content">
         <div class="container">
           <h2>Stand out to the right audience</h2>
-          <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+          <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters,
+            we’ll build and extend your brand in digital places.</p>
           <h3>Learn more</h3>
         </div>
       </div>
@@ -91,7 +100,8 @@
     <section id="graphic-design">
       <div class="container">
         <h2>Graphic design</h2>
-        <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+        <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures
+          potential clients’ attention.</p>
       </div>
     </section>
 
@@ -99,69 +109,78 @@
     <section id="photography">
       <div class="container">
         <h2>Photography</h2>
-        <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+        <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+        </p>
       </div>
     </section>
 
     <!-- CLIENT TESTIMONIALS -->
-    <section class="testimonials">
+    <section id="testimonials">
       <h3>Client testimonials</h3>
 
       <div class="text-content">
         <div class="testimonial">
-          <img src="" alt="">
-          <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+          <img src="images/image-emily.jpg" alt="Emily">
+          <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always
+            hit.</p>
           <h4>Emily R.</h4>
           <span class="title">Marketing Director</span>
         </div>
 
         <div class="testimonial">
-          <img src="" alt="">
-          <p>Sunnyside&#39;s enthusiasm coupled with their keen interest in our brand&#39;s success made it a satisfying and enjoyable experience.</p>
+          <img src="images/image-thomas.jpg" alt="Thomas">
+          <p>Sunnyside&#39;s enthusiasm coupled with their keen interest in our brand&#39;s success made it a satisfying
+            and enjoyable experience.</p>
           <h4>Thomas S.</h4>
           <span class="title">Chief Operating Officer</span>
         </div>
 
         <div class="testimonial">
-          <img src="" alt="">
+          <img src="images/image-jennie.jpg" alt="Jennie">
           <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
           <h4>Jennie F.</h4>
           <span class="title">Business Owner</span>
         </div>
 
-      </div>  <!--end text content -->
+      </div> <!--end text content -->
 
-      <div class="image-content">
-        <!-- 4 images at bottom of testimonials -->
-      </div>
     </section>
   </main>
 
   <footer>
+    <div class="image-content">
+      <!-- 4 images at bottom of testimonials -->
+      <img src="images/mobile/image-gallery-milkbottles.jpg" alt="Milk Bottles">
+      <img src="images/mobile/image-gallery-orange.jpg" alt="Orange">
+      <img src="images/mobile/image-gallery-cone.jpg" alt="Cone">
+      <img src="images/mobile/image-gallery-sugar-cubes.jpg" alt="Sugar Cubes">
+    </div>
+
     <div class="container">
       <h3>sunnyside</h3>
       <div class="footer-menu">
         <ul>
           <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Projects</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
         </ul>
       </div>
       <div class="socials">
         <!-- facebook instagram twitter pinterest -->
-        <i class="fa-brands fa-square-facebook"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-brands fa-pinterest"></i>
+        <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-pinterest"></i></a>
       </div>
     </div>
 
     <div class="foot-title">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Jairzinho Adeyina</a>.
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.linkedin.com/in/jairzinho-adeyina-a00a6579/" target="_blank">Jairzinho Adeyina</a>.
     </div>
   </footer>
-  
+
   <srcript src="js/script.js"></srcript>
 </body>
+
 </html>

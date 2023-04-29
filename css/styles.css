@@ -15,6 +15,9 @@ header {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    background: url("../images/mobile/image-header.jpg") no-repeat center;
+    background-size: cover;
+    color: #fff;
 }
 
 main {
@@ -49,18 +52,31 @@ section {
     flex-flow: row wrap;
 }
 
-/***************** HEADER  *****************/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/***************** OVERLAY  *****************/
 
 .overlay {
     position: fixed;
     z-index: 1;
     top: 60px;
     left: 10%;
-    height: 0;
     background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: row wrap;
 }
 
 .overlay-contents {
@@ -68,6 +84,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: row wrap;
 }
 
 .overlay-contents ul {
@@ -78,6 +95,8 @@ section {
     text-decoration: none;
     color: #000;
 }
+
+/*************** NAVIGATION *****************/
 
 
 nav {
@@ -92,3 +111,305 @@ nav {
     display: none;
 }
 
+/***************** HERO **************/
+
+#hero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+#hero .container {
+    width: 87.2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+#hero h2 {
+    width: 100%;
+    text-align: center;
+    padding: 88px 0 55px 0;
+}
+
+#hero img {
+    padding-bottom: 137px;
+}
+
+/***************** BRAND **************/
+#brand {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+#brand .img-content {
+    width: 100%;
+    background: url("../images/mobile/image-transform.jpg") no-repeat center;
+    background-size: cover;
+    padding-top: 312px;
+    margin: 0;
+}
+
+#brand .text-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 64px 0;
+}
+
+#brand .text-content .container {
+    width: 82.4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+
+#brand .text-content h2 {
+    padding-bottom: 24px;
+}
+
+#brand .text-content p {
+    padding-bottom: 32px;
+    line-height: 30px;
+}
+
+/*************** AUDIENCE **************/
+
+#audience {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+#audience .img-content {
+    width: 100%;
+    background: url("../images/mobile/image-stand-out.jpg") no-repeat center;
+    background-size: cover;
+    padding-top: 312px;
+    margin: 0;
+}
+
+#audience .text-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 64px 0;
+}
+
+#audience .text-content .container {
+    width: 82.4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+#audience .text-content h2 {
+    padding-bottom: 24px;
+}
+
+#audience .text-content p {
+    padding-bottom: 32px;
+    line-height: 30px;
+}
+
+/*************** GRAPHIC DESIGN **************/
+
+#graphic-design {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    background: url("../images/mobile/image-graphic-design.jpg") no-repeat center;
+    background-size: cover;
+    color: #24554A;
+    padding: 398px 0 59px 0;
+}
+
+#graphic-design .container {
+    width: 87.2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+#graphic-design h2 {
+    padding-bottom: 27px;
+}
+
+#graphic-design p {
+    line-height: 27px;
+}
+
+/*************** PHOTOGRAPHY **************/
+
+#photography {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    background: url("../images/mobile/image-photography.jpg") no-repeat center;
+    background-size: cover;
+    color: #052C3B;
+    padding: 398px 0 59px 0;
+}
+
+#photography .container {
+    width: 87.2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+#photography h2 {
+    padding-bottom: 27px;
+}
+
+#photography p {
+    line-height: 27px;
+}
+
+/*************** CLIENT TESTIMONIALS **************/
+
+#testimonials {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 64px 0 86px 0;
+}
+
+#testimonials h3 {
+    padding-bottom: 64px;
+}
+
+#testimonials .text-content {
+    width: 87.2%;
+}
+
+.testimonial {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    text-align: center;
+    padding-bottom: 64px;
+}
+
+.testimonial img {
+    width: 22%;
+    margin-bottom: 32px;
+    border-radius: 50%;
+}
+
+.testimonial p {
+    padding-bottom: 32px;
+    line-height: 32px;
+}
+
+.testimonial h4 {
+    padding-bottom: 9px;
+    width: 100%;
+}
+
+/*************** FOOTER **************/
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    background-color: #90D4C6;
+    color: #2C7566;
+}
+
+footer .image-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+footer img {
+    width: 50%;
+}
+
+footer .container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+footer h3 {
+    width: 100%;
+    text-align: center;
+    padding: 64px 0 40px 0;
+}
+
+
+
+footer .footer-menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+footer ul {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    margin: 0;
+    padding: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #458D7E;
+}
+
+footer .socials {
+    width: 44%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 88px 0 100px 0;
+    text-align: center;
+}
+
+.foot-title {
+    font-size: .75em;
+}
