@@ -79,15 +79,27 @@ h4 {
 /***************** OVERLAY  *****************/
 
 .overlay {
-    position: fixed;
+    width: 86%;
+    position: absolute;
     z-index: 1;
-    top: 60px;
-    left: 10%;
+    top: 80px;
+    left: 24px;
     background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
+    margin: 0;
+}
+
+.overlay:before {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 16px;
+    height: 16px;
+    border: 1em solid #fff;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    right: 0;
+    top: -16px;
+    z-index: 1;
 }
 
 .overlay-contents {
@@ -96,15 +108,27 @@ h4 {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    /* padding: 20px 0; */
 }
 
 .overlay-contents ul {
     list-style: none;
+    margin: 65px 0 40px 0;
+    padding: 0;
+
+}
+
+.overlay-contents ul li {
+    padding-bottom: 32px;
 }
 
 .overlay-contents a {
     text-decoration: none;
-    color: #000;
+    color: #808397;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    line-height: 25px;
+    font-size: 1.25em;
 }
 
 /*************** NAVIGATION *****************/
@@ -120,7 +144,7 @@ nav {
 }
 
 .hide {
-    display: none;
+    display: none !important;
 }
 
 .logo {
@@ -128,7 +152,7 @@ nav {
 }
 
 .hamburger {
-    width: 6%;
+    width: 8%;
 }
 
 /***************** HERO **************/
@@ -535,3 +559,5 @@ footer .socials {
 .foot-title {
     font-size: .75em;
 }
+
+/***************** DESKTOP STYLES ******************/
