@@ -92,8 +92,8 @@ h4 {
     position: absolute;
     content: '';
     display: block;
-    width: 16px;
-    height: 16px;
+    width: 0;
+    height: 0;
     border: 1em solid #fff;
     border-top-color: transparent;
     border-left-color: transparent;
@@ -163,6 +163,10 @@ nav {
 
 .hamburger {
     width: 8%;
+}
+
+.menu {
+    display: none !important;
 }
 
 /***************** HERO **************/
@@ -328,6 +332,16 @@ nav {
     /* the border bottom is a place holder for the effect */
     border-bottom: 3px solid #FE7766;
     ;
+}
+
+/**************** OFFER ******************/
+
+.offer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
 /*************** GRAPHIC DESIGN **************/
@@ -571,3 +585,322 @@ footer .socials {
 }
 
 /***************** DESKTOP STYLES ******************/
+
+@media (min-width: 1200px) {
+
+    /*************** HEADER ************/
+
+    nav {
+        margin-top: 40px;
+        padding: 0;
+    }
+
+    .menu {
+        width: 32.4%;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+    }
+
+    .menu ul {
+        width: 100%;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-flow: row wrap;
+    }
+
+    .menu a {
+        text-decoration: none;
+        font-size: 1em;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: -0.13px;
+        color: #fff;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .cta {
+        background-color: #fff;
+    }
+
+    .cta:hover {
+        opacity: 0.5;
+    }
+
+    .cta a {
+        color: #24303E;
+    }
+
+    /**************** HERO ******************/
+
+    #hero {
+        background: url('../images/desktop/image-header.jpg') no-repeat center;
+        background-size: cover;
+    }
+
+    #hero h2 {
+        margin: 105px 0 96.5px 0;
+        padding: 0;
+    }
+
+    #hero img {
+        margin-bottom: 332px;
+    }
+
+    /***************** BRAND *******************/
+
+    #brand {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        align-items: stretch;
+        flex-direction: row-reverse;
+    }
+
+    #brand .img-content {
+        width: 50%;
+        background: url('../images/desktop/image-transform.jpg') no-repeat center;
+        background-size: cover;
+    }
+
+    #brand .img-content p {
+        padding: 600px 0 0 0;
+        margin: 0;
+    }
+
+    #brand .text-content {
+        width: 50%;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #brand .text-content .container {
+        width: 62%;
+        justify-content: flex-start;
+        padding: 158px 0;
+    }
+
+    #brand .text-content h2 {
+        width: 100%;
+        text-align: left;
+        padding-bottom: 32px;
+        font-size: 2.22em;
+        line-height: 49px;
+        font-weight: 900;
+        letter-spacing: -0.29px;
+    }
+
+    #brand .text-content p {
+        width: 100%;
+        text-align: left;
+        padding-bottom: 40px;
+        font-size: 1em;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: -0.13px;
+    }
+
+    /***************** AUDIENCE *******************/
+
+    #audience {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        align-items: stretch;
+    }
+
+    #audience .img-content {
+        width: 50%;
+        background: url('../images/desktop/image-stand-out.jpg') no-repeat center;
+        background-size: cover;
+    }
+
+    #audience .img-content p {
+        padding: 600px 0 0 0;
+        margin: 0;
+    }
+
+    #audience .text-content {
+        width: 50%;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #audience .text-content .container {
+        width: 62%;
+        justify-content: flex-start;
+        padding: 158px 0;
+    }
+
+    #audience .text-content h2 {
+        width: 100%;
+        text-align: left;
+        padding-bottom: 32px;
+        font-size: 2.22em;
+        line-height: 49px;
+        font-weight: 900;
+        letter-spacing: -0.29px;
+    }
+
+    #audience .text-content p {
+        width: 100%;
+        text-align: left;
+        padding-bottom: 40px;
+        font-size: 1em;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: -0.13px;
+    }
+
+    /************** GRAPHIC DESIGN AND PHOTOGRAPHY **************/
+
+    .offer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        flex-flow: row wrap;
+        padding: 0;
+        margin: 0;
+    }
+
+    #graphic-design {
+        width: 50%;
+        background: url('../images/desktop/image-graphic-design.jpg') no-repeat center;
+        background-size: cover;
+    }
+
+    #photography {
+        width: 50%;
+        background: url('../images/desktop/image-photography.jpg') no-repeat center;
+        background-size: cover;
+    }
+
+    #graphic-design .container,
+    #photography .container {
+        width: 47%;
+    }
+
+    #graphic-design h2,
+    #photography h2 {
+        font-size: 1.56em;
+        font-weight: 900;
+        line-height: 35px;
+        letter-spacing: -0.2px;
+        text-align: center;
+    }
+
+    #graphic-design p,
+    #photography p {
+        width: 100%;
+        font-size: 0.89em;
+        line-height: 27px;
+        font-weight: 600;
+        letter-spacing: -0.11px;
+        text-align: center;
+    }
+
+    /*************** TESTIMONIALS *****************/
+
+    #testimonials h3 {
+        width: 100%;
+        text-align: center;
+        padding: 157px 0 81px 0;
+    }
+
+    #testimonials .text-content {
+        width: 77%;
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        flex-flow: row wrap;
+        margin-bottom: 163px;
+    }
+
+    .testimonial {
+        width: 31%;
+    }
+
+    .testimonial img {
+        margin-bottom: 58px;
+    }
+
+    .testimonial p {
+        font-size: 1em;
+        font-weight: 600;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: -0.13px;
+        padding-bottom: 69px;
+    }
+
+    .testimonial h4 {
+        font-size: 1em;
+        font-weight: 900;
+        line-height: 22px;
+        text-align: center;
+        letter-spacing: -0.13px;
+    }
+
+    .testimonial span {
+        font-size: 0.77em;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: -0.1px;
+    }
+
+    .testimonial.bottom {
+        padding-bottom: 64px;
+    }
+
+    /************** FOOTER *****************/
+
+    footer .image-content {
+        width: 100%;
+    }
+
+    footer img {
+        width: 25%;
+    }
+
+    footer .container {
+        width: 20%;
+    }
+
+    footer .container .logo {
+        width: 57%;
+        padding: 72px 0 40px 0;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: #458D7E;
+        font-weight: 600;
+        font-size: 1em;
+        line-height: 25px;
+        letter-spacing: -0.13px;
+    }
+
+    footer a:hover {
+        color: #fff;
+    }
+
+    footer .socials {
+        width: 55%;
+        font-size: 1em;
+    }
+
+    footer .foot-title {
+        width: 100%;
+        text-align: center;
+    }
+
+}
