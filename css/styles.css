@@ -1,5 +1,9 @@
 html {
     font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
 body {
@@ -584,6 +588,10 @@ footer .socials {
 /***************** DESKTOP STYLES ******************/
 
 @media (min-width: 1200px) {
+
+    body {
+        max-width: 1440px;
+    }
 
     /*************** HEADER ************/
 
